@@ -1,0 +1,75 @@
+html { 
+  background: url(http://www.ogidesigns.net/images/richmond.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  font-family: arial,sans-serif;
+  line-height: 140%;
+  color: #eee;
+}
+nav{
+	float: right;
+}
+#container{
+	width: 1040px;
+	margin: 20px auto;
+	padding: 40px;
+	color: #eee;
+	background:rgba(0,0,0,.6);
+	overflow: auto;
+	}
+ul li{
+	float: right;
+	display:list-item;
+	margin-right: 50px;
+}
+a{
+	color: #F9BB3B;
+	text-decoration: none;	
+}
+.noDot{
+	list-style-type: none;
+}
+section{
+	max-width: 100%;
+}
+img{
+	border: 5px;
+	border-style: solid;
+	border-color: green;
+	width: 18%;
+	margin: 3px;
+	max-width: 200px;
+}
+.twoCol{
+	float: left;
+	width: 45%;
+	background-color: #333333;
+	padding: 22px;
+	background: rgba(0,0,0,.6);
+}
+#contactMe{
+	float: right;
+}
+.aboutImg{
+	float: left;
+	width: 50%;
+	display: block;
+}
+.aboutInfo{
+	width: 48%;
+}
+p{
+	float: left;
+	width: 70%;
+	margin-left: 25px;
+	-webkit-margin-before:0em;
+	margin-bottom: 0px;
+}
+h2{
+	margin: 10px;
+}
